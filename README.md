@@ -8,9 +8,9 @@ HowTo
 
 from upcdb import UPCDB
 
-upcdb   = UPCDB('<API KEY>')
+upcdb   = UPCDB('API KEY')
 
-upc     = upcdb.get('<UPC')
+upc     = upcdb.get('UPC')
 
 print upc.name
 
